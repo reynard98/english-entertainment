@@ -1,0 +1,488 @@
+:root {
+  --primary-Color-black: #000000;
+  --primary-Color-blue-50: #edfbff;
+  --primary-Color-blue-100: #d7f3ff;
+  --primary-Color-blue-200: #b9ecff;
+  --primary-Color-blue-300: #88e2ff;
+  --primary-Color-blue-400: #50cfff;
+  --primary-Color-blue-500: #28b3ff;
+  --primary-Color-blue-600: #0693ff;
+  --primary-Color-blue-700: #0a7eeb;
+  --primary-Color-blue-800: #0f64be;
+  --primary-Color-blue-900: #135695;
+  --primary-Color-blue-950: #11345a;
+  --primary-Color-green-50: #edf8eb;
+  --primary-Color-green-100: #e7f6e5;
+  --primary-Color-green-200: #c3e9bf;
+  --primary-Color-green-300: #86d280;
+  --primary-Color-green-400: #4abc40;
+  --primary-Color-green-500: #0da500;
+  --primary-Color-green-600: #109204;
+  --primary-Color-green-700: #0c6304;
+  --primary-Color-green-800: #094a03;
+  --primary-Color-green-900: #063202;
+  --primary-Color-green-950: #031901;
+  --primary-Color-grey-50: #fafafa;
+  --primary-Color-grey-100: #efefef;
+  --primary-Color-grey-150: #e0e0e0;
+  --primary-Color-grey-200: #dcdcdc;
+  --primary-Color-grey-300: #bdbdbd;
+  --primary-Color-grey-400: #989898;
+  --primary-Color-grey-500: #7c7c7c;
+  --primary-Color-grey-600: #656565;
+  --primary-Color-grey-700: #525252;
+  --primary-Color-grey-800: #464646;
+  --primary-Color-grey-900: #3d3d3d;
+  --primary-Color-grey-950: #292929;
+  --primary-Color-grey-1000: #1f1f1f;
+  --primary-Color-grey-1100: #151515;
+  --primary-Color-orange-50: #fff5ec;
+  --primary-Color-orange-100: #ffe8d3;
+  --primary-Color-orange-200: #ffcda5;
+  --primary-Color-orange-300: #ffaa6d;
+  --primary-Color-orange-400: #ff7b32;
+  --primary-Color-orange-500: #ff570a;
+  --primary-Color-orange-600: #ff3c00;
+  --primary-Color-orange-700: #cc2702;
+  --primary-Color-orange-800: #a1200b;
+  --primary-Color-orange-900: #821d0c;
+  --primary-Color-orange-950: #460b04;
+  --primary-Color-pink-50: #feebff;
+  --primary-Color-pink-100: #fee5ff;
+  --primary-Color-pink-200: #febfff;
+  --primary-Color-pink-300: #fc80ff;
+  --primary-Color-pink-400: #fb40ff;
+  --primary-Color-pink-500: #fa00ff;
+  --primary-Color-pink-600: #bb00bf;
+  --primary-Color-pink-700: #7d0080;
+  --primary-Color-pink-800: #5e0060;
+  --primary-Color-pink-900: #3f0040;
+  --primary-Color-pink-950: #1f0020;
+  --primary-Color-purple-50: #f8f2ff;
+  --primary-Color-purple-100: #f6eeff;
+  --primary-Color-purple-200: #e8d5fe;
+  --primary-Color-purple-300: #d1acfd;
+  --primary-Color-purple-400: #b982fc;
+  --primary-Color-purple-500: #a259fb;
+  --primary-Color-purple-600: #7a43bc;
+  --primary-Color-purple-700: #512d7e;
+  --primary-Color-purple-800: #3d225f;
+  --primary-Color-purple-900: #29163f;
+  --primary-Color-purple-950: #140b20;
+  --primary-Color-red-50: #ffebeb;
+  --primary-Color-red-100: #ffe5e5;
+  --primary-Color-red-200: #ffbfbf;
+  --primary-Color-red-300: #ff8080;
+  --primary-Color-red-400: #ff4040;
+  --primary-Color-red-500: #ff0000;
+  --primary-Color-red-600: #bf0000;
+  --primary-Color-red-700: #800000;
+  --primary-Color-red-800: #600000;
+  --primary-Color-red-900: #400000;
+  --primary-Color-red-950: #330000;
+  --primary-Color-white: #ffffff;
+  --primary-Color-yellow-50: #ffffea;
+  --primary-Color-yellow-100: #fffcc5;
+  --primary-Color-yellow-200: #fffa85;
+  --primary-Color-yellow-300: #fff146;
+  --primary-Color-yellow-400: #ffe31b;
+  --primary-Color-yellow-500: #ffc400;
+  --primary-Color-yellow-600: #e29800;
+  --primary-Color-yellow-700: #bb6c02;
+  --primary-Color-yellow-800: #985308;
+  --primary-Color-yellow-900: #7c440b;
+  --primary-Color-yellow-950: #482300;
+
+  /** ALIAS **/
+
+  --alias-error-50: var(--primary-Color-red-50);
+  --alias-error-100: var(--primary-Color-red-100);
+  --alias-error-200: var(--primary-Color-red-200);
+  --alias-error-300: var(--primary-Color-red-300);
+  --alias-error-400: var(--primary-Color-red-400);
+  --alias-error-500: var(--primary-Color-red-500);
+  --alias-error-600: var(--primary-Color-red-600);
+  --alias-error-700: var(--primary-Color-red-700);
+  --alias-error-800: var(--primary-Color-red-800);
+  --alias-error-900: var(--primary-Color-red-900);
+  --alias-error-950: var(--primary-Color-red-950);
+  --alias-listening-50: var(--primary-Color-yellow-50);
+  --alias-listening-100: var(--primary-Color-yellow-100);
+  --alias-listening-200: var(--primary-Color-yellow-200);
+  --alias-listening-300: var(--primary-Color-yellow-300);
+  --alias-listening-400: var(--primary-Color-yellow-400);
+  --alias-listening-500: var(--primary-Color-yellow-500);
+  --alias-listening-600: var(--primary-Color-yellow-600);
+  --alias-listening-700: var(--primary-Color-yellow-700);
+  --alias-listening-800: var(--primary-Color-yellow-800);
+  --alias-listening-900: var(--primary-Color-yellow-900);
+  --alias-listening-950: var(--primary-Color-yellow-950);
+  --alias-neutral-50: var(--primary-Color-grey-50);
+  --alias-neutral-100: var(--primary-Color-grey-100);
+  --alias-neutral-150: var(--primary-Color-grey-150);
+  --alias-neutral-200: var(--primary-Color-grey-200);
+  --alias-neutral-300: var(--primary-Color-grey-300);
+  --alias-neutral-400: var(--primary-Color-grey-400);
+  --alias-neutral-500: var(--primary-Color-grey-500);
+  --alias-neutral-600: var(--primary-Color-grey-600);
+  --alias-neutral-700: var(--primary-Color-grey-700);
+  --alias-neutral-800: var(--primary-Color-grey-800);
+  --alias-neutral-900: var(--primary-Color-grey-900);
+  --alias-neutral-950: var(--primary-Color-grey-950);
+  --alias-neutral-1000: var(--primary-Color-grey-1000);
+  --alias-neutral-1100: var(--primary-Color-grey-1100);
+  --alias-neutral-black: #000000;
+  --alias-neutral-white: #ffffff;
+  --alias-primary-50: var(--primary-Color-blue-50);
+  --alias-primary-100: var(--primary-Color-blue-100);
+  --alias-primary-200: var(--primary-Color-blue-200);
+  --alias-primary-300: var(--primary-Color-blue-300);
+  --alias-primary-400: var(--primary-Color-blue-400);
+  --alias-primary-500: var(--primary-Color-blue-500);
+  --alias-primary-700: var(--primary-Color-blue-700);
+  --alias-primary-800: var(--primary-Color-blue-800);
+  --alias-primary-900: var(--primary-Color-blue-900);
+  --alias-primary-950: var(--primary-Color-blue-950);
+  --alias-primary-default: var(--primary-Color-blue-600);
+  --alias-reading-50: var(--primary-Color-blue-50);
+  --alias-reading-100: var(--primary-Color-blue-100);
+  --alias-reading-200: var(--primary-Color-blue-200);
+  --alias-reading-300: var(--primary-Color-blue-300);
+  --alias-reading-400: var(--primary-Color-blue-400);
+  --alias-reading-500: var(--primary-Color-blue-500);
+  --alias-reading-600: var(--primary-Color-blue-600);
+  --alias-reading-700: var(--primary-Color-blue-700);
+  --alias-reading-800: var(--primary-Color-blue-800);
+  --alias-reading-900: var(--primary-Color-blue-900);
+  --alias-reading-950: var(--primary-Color-blue-950);
+  --alias-success-50: var(--primary-Color-green-50);
+  --alias-success-100: var(--primary-Color-green-100);
+  --alias-success-200: var(--primary-Color-green-200);
+  --alias-success-300: var(--primary-Color-green-300);
+  --alias-success-400: var(--primary-Color-green-400);
+  --alias-success-500: var(--primary-Color-green-500);
+  --alias-success-600: var(--primary-Color-green-600);
+  --alias-success-700: var(--primary-Color-green-700);
+  --alias-success-800: var(--primary-Color-green-800);
+  --alias-success-900: var(--primary-Color-green-900);
+  --alias-success-950: var(--primary-Color-green-950);
+  --alias-vocabulary-50: var(--primary-Color-orange-50);
+  --alias-vocabulary-100: var(--primary-Color-orange-100);
+  --alias-vocabulary-200: var(--primary-Color-orange-200);
+  --alias-vocabulary-300: var(--primary-Color-orange-300);
+  --alias-vocabulary-400: var(--primary-Color-orange-400);
+  --alias-vocabulary-500: var(--primary-Color-orange-500);
+  --alias-vocabulary-600: var(--primary-Color-orange-600);
+  --alias-vocabulary-700: var(--primary-Color-orange-700);
+  --alias-vocabulary-800: var(--primary-Color-orange-800);
+  --alias-vocabulary-900: var(--primary-Color-orange-900);
+  --alias-vocabulary-950: var(--primary-Color-orange-950);
+
+  /** SEMANTICS**/
+
+  --semantic-border-avatar: var(--alias-neutral-300);
+  --semantic-border-card: var(--alias-neutral-400);
+  --semantic-border-checkbox: var(--alias-neutral-400);
+  --semantic-border-field-field-disabled: var(--alias-neutral-200);
+  --semantic-border-field-field-error: var(--alias-error-600);
+  --semantic-border-field-field-focus: var(--alias-primary-default);
+  --semantic-border-field-field-selected: var(--alias-primary-default);
+  --semantic-border-field-field-success: var(--alias-success-600);
+  --semantic-border-field-field: var(--alias-neutral-400);
+  --semantic-border-secondarybutton-secondary-button-hover: var(
+    --alias-primary-700
+  );
+  --semantic-border-secondarybutton-secondary-button: var(
+    --alias-primary-default
+  );
+  --semantic-border-tag: var(--alias-neutral-300);
+  --semantic-icon-accordion: var(--alias-neutral-50);
+  --semantic-icon-checkbox: var(--alias-neutral-white);
+  --semantic-icon-disabled: var(--alias-neutral-300);
+  --semantic-icon-error: var(--alias-error-500);
+  --semantic-icon-navigation-dashboard-selected: var(--alias-neutral-50);
+  --semantic-icon-navigation-dashboard: var(--alias-neutral-1000);
+  --semantic-icon-on-button: var(--alias-neutral-white);
+  --semantic-icon-on-card: var(--alias-neutral-white);
+  --semantic-icon-on-secondary-button: var(--alias-neutral-500);
+  --semantic-icon-primary: var(--alias-neutral-500);
+  --semantic-icon-success: var(--alias-success-500);
+  --semantic-surface-accordion-accordion-hover: var(--alias-primary-default);
+  --semantic-surface-accordion-accordion: var(--alias-neutral-1100);
+  --semantic-surface-button-CTA-button-hover: var(--alias-primary-700);
+  --semantic-surface-button-CTA-button: var(--alias-primary-default);
+  --semantic-surface-button-filter-button: var(--alias-neutral-150);
+  --semantic-surface-button-secondary-button: var(--alias-neutral-white);
+  --semantic-surface-card-icon-on-card: var(--alias-neutral-black);
+  --semantic-surface-card-recommendation-card-hover: var(--alias-neutral-1000);
+  --semantic-surface-card-recommendation-card: var(--alias-neutral-950);
+  --semantic-surface-card-test-score-summary-card-version-2: var(
+    --alias-neutral-50
+  );
+  --semantic-surface-card-test-score-summary-card: var(--alias-primary-800);
+  --semantic-surface-checkbox: var(--alias-primary-default);
+  --semantic-surface-dashboard-navigation-selected: var(--alias-neutral-950);
+  --semantic-surface-disabled: var(--alias-neutral-100);
+  --semantic-surface-error: var(--alias-error-100);
+  --semantic-surface-form: var(--alias-neutral-50);
+  --semantic-surface-graph-graph-hover: var(--alias-neutral-150);
+  --semantic-surface-graph-graph-selected: var(--alias-primary-default);
+  --semantic-surface-graph-graph: var(--alias-neutral-100);
+  --semantic-surface-levelbulletandstatistic-general-listening: var(
+    --alias-listening-500
+  );
+  --semantic-surface-levelbulletandstatistic-general-reading: var(
+    --alias-reading-400
+  );
+  --semantic-surface-levelbulletandstatistic-general-vocabulary: var(
+    --alias-vocabulary-600
+  );
+  --semantic-surface-levelbulletandstatistic-listening-advance: var(
+    --alias-listening-500
+  );
+  --semantic-surface-levelbulletandstatistic-listening-beginner: var(
+    --alias-listening-700
+  );
+  --semantic-surface-levelbulletandstatistic-listening-intermediate: var(
+    --alias-listening-600
+  );
+  --semantic-surface-levelbulletandstatistic-reading-advance: var(
+    --alias-reading-400
+  );
+  --semantic-surface-levelbulletandstatistic-reading-beginner: var(
+    --alias-reading-700
+  );
+  --semantic-surface-levelbulletandstatistic-reading-intermediate: var(
+    --alias-reading-600
+  );
+  --semantic-surface-levelbulletandstatistic-vocab-advance: var(
+    --alias-vocabulary-400
+  );
+  --semantic-surface-levelbulletandstatistic-vocabulary-beginner: var(
+    --alias-vocabulary-700
+  );
+  --semantic-surface-levelbulletandstatistic-vocabulary-intermediate: var(
+    --alias-vocabulary-600
+  );
+  --semantic-surface-navigation: var(--alias-neutral-50);
+  --semantic-surface-page: var(--alias-neutral-50);
+  --semantic-surface-primary-card: var(--alias-neutral-50);
+  --semantic-surface-statistic-page: var(--alias-neutral-100);
+  --semantic-surface-success: var(--alias-success-100);
+  --semantic-surface-switch-switch-background: var(--alias-neutral-1100);
+  --semantic-surface-switch-switch-button: var(--alias-neutral-50);
+  --semantic-surface-tag-tag-hover: var(--alias-primary-default);
+  --semantic-surface-tag-tag-selected: var(--alias-neutral-black);
+  --semantic-surface-tag-tag: var(--alias-neutral-white);
+  --semantic-text-accordion-accordion-example-sentence: var(
+    --alias-neutral-300
+  );
+  --semantic-text-accordion-accordion: var(--alias-neutral-150);
+  --semantic-text-article-heading: var(--alias-neutral-950);
+  --semantic-text-button-button-disabled: var(--alias-neutral-700);
+  --semantic-text-button-button: var(--alias-neutral-50);
+  --semantic-text-caption: var(--alias-neutral-300);
+  --semantic-text-card-card-body: var(--alias-neutral-800);
+  --semantic-text-card-card-graph-caption: var(--alias-neutral-800);
+  --semantic-text-card-card-heading: var(--alias-neutral-900);
+  --semantic-text-card-lessoncard-lesson-card-desc-text: var(
+    --alias-neutral-500
+  );
+  --semantic-text-card-lessoncard-lesson-card-numbering: var(
+    --alias-neutral-1100
+  );
+  --semantic-text-card-recommendationcard-recommendation-card-body-hover: var(
+    --alias-neutral-300
+  );
+  --semantic-text-card-recommendationcard-recommendation-card-body: var(
+    --alias-neutral-100
+  );
+  --semantic-text-card-recommendationcard-recommendation-card-heading-hover: var(
+    --alias-neutral-200
+  );
+  --semantic-text-card-recommendationcard-recommendation-card-heading: var(
+    --alias-neutral-50
+  );
+  --semantic-text-card-secondarycard-secondary-card-additional-desc: var(
+    --alias-neutral-500
+  );
+  --semantic-text-card-secondarycard-secondary-card-body: var(
+    --alias-neutral-700
+  );
+  --semantic-text-disabled: var(--alias-neutral-300);
+  --semantic-text-error: var(--alias-error-500);
+  --semantic-text-form: var(--alias-neutral-500);
+  --semantic-text-navigation-dashboard-navigation-selected: var(
+    --alias-neutral-50
+  );
+  --semantic-text-navigation-navigation-hover: var(--alias-neutral-950);
+  --semantic-text-navigation-navigation: var(--alias-neutral-900);
+  --semantic-text-paragraph: var(--alias-neutral-900);
+  --semantic-text-placeholder: var(--alias-neutral-400);
+  --semantic-text-section-heading: var(--alias-neutral-950);
+  --semantic-text-success: var(--alias-success-500);
+  --semantic-text-switch-switch-selected: var(--alias-neutral-50);
+  --semantic-text-switch-switch: var(--alias-neutral-950);
+  --semantic-text-tag-tag-hover: var(--alias-neutral-white);
+  --semantic-text-tag-tag-selected: var(--alias-neutral-white);
+  --semantic-text-tag-tag: var(--alias-neutral-800);
+
+  /* Text-size styles */
+  --heading-jp--black---x-x-l: 48px;
+  --heading-jp--black---x-l: 40px;
+  --heading-jp--black---l: 32px;
+  --heading-jp--black---r: 24px;
+  --heading-jp--black---s: 20px;
+  --heading-jp--black---x-s: 16px;
+  --heading-jp--black---x-x-s: 14px;
+  --heading-jp--bold---x-x-l: 48px;
+  --heading-jp--bold---x-l: 40px;
+  --heading-jp--bold---l: 32px;
+  --heading-jp--bold---r: 24px;
+  --heading-jp--bold---s: 20px;
+  --heading-jp--bold---x-s: 16px;
+  --heading-jp--bold---x-x-s: 14px;
+  --heading-jp--medium---x-x-l: 48px;
+  --heading-jp--medium---x-l: 40px;
+  --heading-jp--medium---l: 32px;
+  --heading-jp--medium---r: 24px;
+  --heading-jp--medium---s: 20px;
+  --heading-jp--medium---x-s: 16px;
+  --heading-jp--medium---x-x-s: 14px;
+  --heading-jp--regular---x-x-l: 48px;
+  --heading-jp--regular---x-l: 40px;
+  --heading-jp--regular---l: 32px;
+  --heading-jp--regular---r: 24px;
+  --heading-jp--regular---s: 20px;
+  --heading-jp--regular---x-s: 16px;
+  --heading-jp--regular---x-x-s: 14px;
+  --heading-jp--demi-light---x-x-l: 48px;
+  --heading-jp--demi-light---x-l: 40px;
+  --heading-jp--demi-light---l: 32px;
+  --heading-jp--demi-light---r: 24px;
+  --heading-jp--demi-light---s: 20px;
+  --heading-jp--demi-light---x-s: 16px;
+  --heading-jp--demi-light---x-x-s: 14px;
+  --heading-jp--light---x-x-l: 48px;
+  --heading-jp--light---x-l: 40px;
+  --heading-jp--light---l: 32px;
+  --heading-jp--light---r: 24px;
+  --heading-jp--light---s: 20px;
+  --heading-jp--light---x-s: 16px;
+  --heading-jp--light---x-x-s: 14px;
+  --heading-jp--thin---x-x-l: 48px;
+  --heading-jp--thin---x-l: 40px;
+  --heading-jp--thin---l: 32px;
+  --heading-jp--thin---r: 24px;
+  --heading-jp--thin---s: 20px;
+  --heading-jp--thin---x-s: 16px;
+  --heading-jp--thin---x-x-s: 14px;
+  --body-jp--black---x-x-l: 18px;
+  --body-jp--black---x-l: 16px;
+  --body-jp--black---l: 14px;
+  --body-jp--black---r: 12px;
+  --body-jp--black---s: 10px;
+  --body-jp--black---x-s: 8px;
+  --body-jp--black---x-x-s: 6px;
+  --body-jp--bold---x-x-l: 18px;
+  --body-jp--bold---x-l: 16px;
+  --body-jp--bold---l: 14px;
+  --body-jp--bold---r: 12px;
+  --body-jp--bold---s: 10px;
+  --body-jp--bold---x-s: 8px;
+  --body-jp--bold---x-x-s: 6px;
+  --body-jp--medium---x-x-l: 18px;
+  --body-jp--medium---x-l: 16px;
+  --body-jp--medium---l: 14px;
+  --body-jp--medium---r: 12px;
+  --body-jp--medium---s: 10px;
+  --body-jp--medium---x-s: 8px;
+  --body-jp--medium---x-x-s: 6px;
+  --body-jp--regular---x-x-l: 18px;
+  --body-jp--regular---x-l: 16px;
+  --body-jp--regular---l: 14px;
+  --body-jp--regular---r: 12px;
+  --body-jp--regular---s: 10px;
+  --body-jp--regular---x-s: 8px;
+  --body-jp--regular---x-x-s: 6px;
+  --body-jp--demi-light---x-x-l: 18px;
+  --body-jp--demi-light---x-l: 16px;
+  --body-jp--demi-light---l: 14px;
+  --body-jp--demi-light---r: 12px;
+  --body-jp--demi-light---s: 10px;
+  --body-jp--demi-light---x-s: 8px;
+  --body-jp--demi-light---x-x-s: 6px;
+  --body-jp--light---x-x-l: 18px;
+  --body-jp--light---x-l: 16px;
+  --body-jp--light---l: 14px;
+  --body-jp--light---r: 12px;
+  --body-jp--light---s: 10px;
+  --body-jp--light---x-s: 8px;
+  --body-jp--light---x-x-s: 6px;
+  --body-jp--thin---x-x-l: 18px;
+  --body-jp--thin---x-l: 16px;
+  --body-jp--thin---l: 14px;
+  --body-jp--thin---r: 12px;
+  --body-jp--thin---s: 10px;
+  --body-jp--thin---x-s: 8px;
+  --body-jp--thin---x-x-s: 6px;
+  --heading-en--black---x-x-l: 48px;
+  --heading-en--black---x-l: 40px;
+  --heading-en--bold---x-x-l: 48px;
+  --heading-en--bold---x-l: 40px;
+  --heading-en--bold---l: 32px;
+  --heading-en--bold---r: 24px;
+  --heading-en--bold---s: 20px;
+  --heading-en--semi-bold---x-x-l: 48px;
+  --body-en--black---r: 12px;
+  --body-en--semi-bold---r: 12px;
+  --body-en--bold---r: 12px;
+  --display-en--bold---r: 72px;
+
+  /* Effect styles */
+  --lesson-list-thumbnail: -4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.test {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.test .line {
+  width: 0px;
+  margin: 0 40px;
+  border: solid 0.7px #151515;
+}
+
+.filter-wrap {
+  margin-left: 84px;
+  display: flex;
+  gap: 20px;
+  margin-top: 64px;
+}
+
+.filter-button {
+  padding: 12px 16px;
+  height: auto;
+  width: fit-content;
+  font-family: "noto sans JP";
+  border: 1px solid var(--semantic-border-tag);
+  background-color: var(--semantic-surface-tag-tag);
+  border-radius: 64px;
+  color: var(--semantic-text-tag-tag);
+  font-size: var(--heading-jp--bold---x-x-s);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  transition: 0.3s linear;
+  color: var(--semantic-text-tag-tag-hover);
+  background-color: var(--semantic-surface-tag-tag-hover);
+}
+
+.filter-button.active {
+  background-color: var(--semantic-surface-tag-tag-selected);
+  color: var(--semantic-text-tag-tag-selected);
+}
