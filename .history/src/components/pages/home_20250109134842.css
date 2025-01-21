@@ -1,0 +1,12 @@
+.test {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  border: solid 1px tomato;
+}
+
+.test .line {
+  width: 0px;
+  margin: 0 40px;
+  border: solid 0.7px #151515;
+}

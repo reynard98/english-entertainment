@@ -1,0 +1,11 @@
+.test {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.test .line {
+  width: 0px;
+  margin: 0 40px;
+  border: solid 0.7px #151515;
+}

@@ -1,0 +1,61 @@
+.card-list-wrap {
+  width: fit-content;
+  margin: 64px 84px 64px 0;
+}
+
+.card-list {
+  display: flex;
+  gap: 24px;
+  padding: 20px 40px;
+  height: auto;
+  width: fit-content;
+  align-items: center;
+}
+
+.card-list img {
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
+  box-shadow: var(--lesson-list-thumbnail);
+}
+
+.card-data {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-data h1 {
+  font-size: var(--heading-en--bold---s);
+  font-weight: 700;
+  color: var(--semantic-text-card-card-heading);
+  line-height: 24px;
+}
+
+.card-data h2 {
+  font-size: var(--heading-jp--bold---s);
+  font-weight: 700;
+  color: var(--semantic-text-card-card-heading);
+  line-height: 24px;
+}
+
+.card-data .date {
+  font-size: var(--body-jp--medium---r);
+  font-weight: 500;
+  color: var(--semantic-text-card-card-body);
+  line-height: 20px;
+}
+
+.card-data .content {
+  font-size: var(--body-jp--regular---l);
+  font-weight: 400;
+  color: var(--semantic-text-card-lessoncard-lesson-card-desc-text);
+  line-height: 24px;
+}
+
+.card-list-wrap hr {
+  width: 550px;
+  border: solid 1px #888888;
+  opacity: 60%;
+  margin: 24px auto;
+}
