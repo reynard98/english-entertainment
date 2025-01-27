@@ -15,7 +15,7 @@ const Nav = () => {
             <Link to="/">ホーム</Link>
           </li>
           <li>
-            <Link to="gemini"> Ask Me</Link>
+            <Link to="/gemini"> Ask Me</Link>
           </li>
           <li>
             <Link to="">ダッシュボード</Link>

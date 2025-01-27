@@ -501,16 +501,16 @@ a {
 
 .main-container {
   max-width: 900px;
-  padding-top: 8ch;
+  padding-top: 8px;
   margin: auto;
 }
 
 .greet {
-  margin: 24px 0px;
+  margin: 20px 0px;
   font-size: 56px;
   color: #c4c7c5;
   font-weight: 500;
-  padding: px;
+  padding: 20px;
 }
 
 .greet span {
@@ -523,7 +523,7 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 15px;
-  padding: 50px 20px 20px;
+  padding: 50px 20px;
 }
 
 .card {
@@ -652,7 +652,7 @@ a {
     background-position: -800px 0;
   }
 
-  10% {
+  100% {
     background-position: 800px 0px;
   }
 }

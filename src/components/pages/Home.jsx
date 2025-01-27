@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Card from "../Card/Card";
 import Card2 from "../Card2/Card2";
 import { cardData } from "../Card/CardData";
-
 import Nav from "../Navigation/Nav";
 import "./home.css";
 
